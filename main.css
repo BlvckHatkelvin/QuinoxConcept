@@ -1,0 +1,172 @@
+body{
+    background:linear-gradient(black,white,black);
+    margin:0px;
+}
+#main{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding:10px;
+
+}
+#head{
+    font-family: fantasy;
+    font-weight: 900;
+    font-size:600%;
+    margin-bottom:10px;
+    color:white;
+    text-shadow: 0px 0px 10px black;
+}
+#h4text{
+    margin:12px 0px;
+    color:white;
+}
+#btn{
+    display:flex;
+    justify-content: start;
+    margin-top:50px;
+    
+}
+#btnn{
+    width:200px;
+    height:50px;
+    background:black;
+    border:1px solid black;
+    border-radius:10px;
+    text-shadow: 0px 0px 10px black;
+    color:white;
+    cursor:pointer;
+
+}
+#btnn a{
+    text-decoration:none;
+    color:white;
+}
+#btnn:hover{
+    background:goldenrod;
+    transform:translateY(-8px);
+}
+#btnn:active{
+    transform:scale(0.85);
+}
+#margin{
+    margin-left:20px;
+    padding:20px;
+}
+#concept{
+    color:goldenrod;
+}
+#image1{
+    width:400px;
+    border-radius: 20px;
+}
+#section2{
+    display:flex;
+    justify-content: center;
+    padding-top: 40px;
+
+}
+#ttt{
+    color:goldenrod;
+    text-shadow:0px 0px 5px black;
+    text-align: center;
+    margin-top: 180px;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding:10px;
+    background-color:black;
+    color:white;
+
+}
+.logo{
+    color:grey;
+    text-decoration: none;
+    font-weight: 700;
+    font-size:200%;
+    text-shadow:0px 0px 4px white;
+}
+.navlinks{
+    display:flex;
+    gap:28px;
+    list-style:none;
+}
+.navlinks a{
+    text-decoration: none;
+    color:goldenrod;
+}
+.navlinks a:hover{
+    color:white;
+}
+#shop{
+    margin:10px;
+    display:flex;
+    justify-content: center;
+    gap:50px;
+    padding:10px;
+}
+.items{
+    width:250px;
+    transition:transform 0.3s;
+
+}
+.items:hover{
+    transform:translateY( -10px);
+}
+#shop button{
+    background:goldenrod;
+    border-radius:5px;
+    height:30px;
+    width:150px;
+    font-weight:bold;
+}
+#shop button:hover{
+    background:whitesmoke;
+    transform:translateY(-3px);
+}
+#about{
+    display:flex;
+    padding:80px 200px;
+    margin-top:200px;
+    justify-content: center;
+    gap:100px;
+
+}
+#about img{
+    width:450px;
+    border-radius: 8px;
+}
+#about h2,p{
+    font-family:fantasy;
+    color:white;
+}
+#about h2{
+    font-size: 300%;
+    color:goldenrod;
+}
+#footer{
+    margin-top:20px;
+    text-align:center;
+}
+#footer h2{
+    color:white;
+}
+.footernav{
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+}
+.footernav a{
+    text-decoration:none;
+    color:white;
+}.footernav a:hover{
+    color:goldenrod;
+}
