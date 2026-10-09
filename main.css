@@ -1,3 +1,7 @@
+* { box-sizing: border-box;
+  }
+img { max-width: 100%; height: auto; 
+    }
 body{
     background:linear-gradient(black,white,black);
     margin:0px;
@@ -169,4 +173,7 @@ body{
     color:white;
 }.footernav a:hover{
     color:goldenrod;
+}
+@media(max-width:768px){
+    
 }
