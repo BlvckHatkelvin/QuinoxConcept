@@ -198,5 +198,45 @@ body{
         width: 100%;
         max-width: 320px;
     }
+      body {
+        background: black;
+    }
+
+    #ttt {
+        margin-top: 50px;
+        padding: 0 16px;
+        font-size: 130%;
+    }
+
+    #shop {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        margin: 10px 0;
+        padding: 10px 16px;
+    }
+
+    #shop > div {
+        text-align: center;
+        color: white;
+    }
+
+    #shop h3 {
+        font-size: 100%;
+    }
+
+    #shop h4 {
+        color: goldenrod;
+    }
+
+    .items {
+        width: 100%;
+    }
+
+    #shop button {
+        width: 100%;
+        height: 44px;
+        font-size: 15px;
+    }
 
 }
