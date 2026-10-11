@@ -238,5 +238,30 @@ body{
         height: 44px;
         font-size: 15px;
     }
+      #about {
+        flex-direction: column;
+        padding: 40px 20px;
+        margin-top: 40px;
+        gap: 24px;
+    }
+
+    #about img {
+        width: 100%;
+    }
+
+    #about h2 {
+        font-size: 200%;
+    }
+
+    .footernav {
+        flex-wrap: wrap;
+        padding: 0 16px;
+        gap: 6px 20px;
+    }
+
+    .footernav a {
+        display: inline-block;
+        padding: 12px 6px;
+    }
 
 }
