@@ -175,5 +175,28 @@ body{
     color:goldenrod;
 }
 @media(max-width:768px){
-    
+    #main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #margin {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    #head {
+        font-size: 250%;
+    }
+
+    #btn {
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    #image1 {
+        width: 100%;
+        max-width: 320px;
+    }
+
 }
