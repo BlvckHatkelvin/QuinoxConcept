@@ -1,8 +1,12 @@
+* {
+    box-sizing: border-box;
+}
 body{
     background:linear-gradient(black,white);
 }
 .signup{
-    width:500px;
+    width:90%;
+    max-width:500px;
     padding:10px;
     border: none;
     text-align: center;
@@ -25,9 +29,15 @@ body{
     align-items: center;
     text-align: justify;
 }
+#details > div{
+    width:100%;
+    max-width:300px;
+}
 #details input{
-    height: 40px;
-    width:300px;
+    height: 44px;
+    width:100%;
+    padding:0 12px;
+    font-size:16px;
     border-radius:5px;
     border:none;
 }
@@ -52,4 +62,10 @@ body{
 }
 #btnnn:active{
     transform:scale(0.95);
+}
+@media (max-width: 600px) {
+    .signup {
+        margin: 40px auto;
+        padding: 20px 12px;
+    }
 }
